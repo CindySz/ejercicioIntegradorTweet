@@ -1,0 +1,51 @@
+.tweetName {
+  font-weight: 700;
+}
+
+.tweetCont {
+  border: solid 1px lightgray;
+  border-radius: 12px;
+  background-color: #d3d3d33d;
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+}
+
+.containerTweets {
+  text-align: center;
+}
+input,
+textarea{
+  font-size: 20px;
+    padding: 5px;
+    width: 300px;
+}
+
+textarea{
+    height: 150px;
+}
+
+button{
+  border-radius: 12px;
+  border: solid 1px lightgray;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.formCont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
